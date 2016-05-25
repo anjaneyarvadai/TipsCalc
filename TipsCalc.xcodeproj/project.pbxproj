@@ -13,6 +13,13 @@
 		3CA4DBFC1AB0108700334B64 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CA4DBFB1AB0108700334B64 /* Images.xcassets */; };
 		3CA4DBFF1AB0108700334B64 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3CA4DBFD1AB0108700334B64 /* LaunchScreen.xib */; };
 		3CA4DC0B1AB0108700334B64 /* TipsCalcTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA4DC0A1AB0108700334B64 /* TipsCalcTests.swift */; };
+		3CA4DC1E1AB010B200334B64 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA4DC1D1AB010B200334B64 /* InterfaceController.swift */; };
+		3CA4DC201AB010B200334B64 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA4DC1F1AB010B200334B64 /* NotificationController.swift */; };
+		3CA4DC221AB010B200334B64 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CA4DC211AB010B200334B64 /* Images.xcassets */; };
+		3CA4DC261AB010B200334B64 /* TipsCalc WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = 3CA4DC251AB010B200334B64 /* TipsCalc WatchKit App.app */; };
+		3CA4DC2E1AB010B200334B64 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CA4DC2C1AB010B200334B64 /* Interface.storyboard */; };
+		3CA4DC301AB010B200334B64 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CA4DC2F1AB010B200334B64 /* Images.xcassets */; };
+		3CA4DC331AB010B200334B64 /* TipsCalc WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 3CA4DC181AB010B200334B64 /* TipsCalc WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,7 +30,35 @@
 			remoteGlobalIDString = 3CA4DBEE1AB0108600334B64;
 			remoteInfo = TipsCalc;
 		};
+		3CA4DC271AB010B200334B64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3CA4DBE71AB0108600334B64 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3CA4DC241AB010B200334B64;
+			remoteInfo = "TipsCalc WatchKit App";
+		};
+		3CA4DC311AB010B200334B64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3CA4DBE71AB0108600334B64 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3CA4DC171AB010B200334B64;
+			remoteInfo = "TipsCalc WatchKit Extension";
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3CA4DC3A1AB010B200334B64 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				3CA4DC331AB010B200334B64 /* TipsCalc WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		3CA4DBEF1AB0108600334B64 /* TipsCalc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TipsCalc.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -36,6 +71,16 @@
 		3CA4DC041AB0108700334B64 /* TipsCalcTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipsCalcTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CA4DC091AB0108700334B64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3CA4DC0A1AB0108700334B64 /* TipsCalcTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsCalcTests.swift; sourceTree = "<group>"; };
+		3CA4DC181AB010B200334B64 /* TipsCalc WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "TipsCalc WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CA4DC1B1AB010B200334B64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CA4DC1C1AB010B200334B64 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		3CA4DC1D1AB010B200334B64 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		3CA4DC1F1AB010B200334B64 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		3CA4DC211AB010B200334B64 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3CA4DC251AB010B200334B64 /* TipsCalc WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TipsCalc WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CA4DC2B1AB010B200334B64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CA4DC2D1AB010B200334B64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		3CA4DC2F1AB010B200334B64 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +98,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		3CA4DC151AB010B200334B64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -61,6 +113,8 @@
 			children = (
 				3CA4DBF11AB0108600334B64 /* TipsCalc */,
 				3CA4DC071AB0108700334B64 /* TipsCalcTests */,
+				3CA4DC191AB010B200334B64 /* TipsCalc WatchKit Extension */,
+				3CA4DC291AB010B200334B64 /* TipsCalc WatchKit App */,
 				3CA4DBF01AB0108600334B64 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -70,6 +124,8 @@
 			children = (
 				3CA4DBEF1AB0108600334B64 /* TipsCalc.app */,
 				3CA4DC041AB0108700334B64 /* TipsCalcTests.xctest */,
+				3CA4DC181AB010B200334B64 /* TipsCalc WatchKit Extension.appex */,
+				3CA4DC251AB010B200334B64 /* TipsCalc WatchKit App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -112,6 +168,44 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		3CA4DC191AB010B200334B64 /* TipsCalc WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				3CA4DC1D1AB010B200334B64 /* InterfaceController.swift */,
+				3CA4DC1F1AB010B200334B64 /* NotificationController.swift */,
+				3CA4DC211AB010B200334B64 /* Images.xcassets */,
+				3CA4DC1A1AB010B200334B64 /* Supporting Files */,
+			);
+			path = "TipsCalc WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		3CA4DC1A1AB010B200334B64 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3CA4DC1B1AB010B200334B64 /* Info.plist */,
+				3CA4DC1C1AB010B200334B64 /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3CA4DC291AB010B200334B64 /* TipsCalc WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				3CA4DC2C1AB010B200334B64 /* Interface.storyboard */,
+				3CA4DC2F1AB010B200334B64 /* Images.xcassets */,
+				3CA4DC2A1AB010B200334B64 /* Supporting Files */,
+			);
+			path = "TipsCalc WatchKit App";
+			sourceTree = "<group>";
+		};
+		3CA4DC2A1AB010B200334B64 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3CA4DC2B1AB010B200334B64 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -122,10 +216,12 @@
 				3CA4DBEB1AB0108600334B64 /* Sources */,
 				3CA4DBEC1AB0108600334B64 /* Frameworks */,
 				3CA4DBED1AB0108600334B64 /* Resources */,
+				3CA4DC3A1AB010B200334B64 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				3CA4DC321AB010B200334B64 /* PBXTargetDependency */,
 			);
 			name = TipsCalc;
 			productName = TipsCalc;
@@ -150,6 +246,39 @@
 			productReference = 3CA4DC041AB0108700334B64 /* TipsCalcTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		3CA4DC171AB010B200334B64 /* TipsCalc WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CA4DC371AB010B200334B64 /* Build configuration list for PBXNativeTarget "TipsCalc WatchKit Extension" */;
+			buildPhases = (
+				3CA4DC141AB010B200334B64 /* Sources */,
+				3CA4DC151AB010B200334B64 /* Frameworks */,
+				3CA4DC161AB010B200334B64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3CA4DC281AB010B200334B64 /* PBXTargetDependency */,
+			);
+			name = "TipsCalc WatchKit Extension";
+			productName = "TipsCalc WatchKit Extension";
+			productReference = 3CA4DC181AB010B200334B64 /* TipsCalc WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		3CA4DC241AB010B200334B64 /* TipsCalc WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CA4DC341AB010B200334B64 /* Build configuration list for PBXNativeTarget "TipsCalc WatchKit App" */;
+			buildPhases = (
+				3CA4DC231AB010B200334B64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TipsCalc WatchKit App";
+			productName = "TipsCalc WatchKit App";
+			productReference = 3CA4DC251AB010B200334B64 /* TipsCalc WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -165,6 +294,12 @@
 					3CA4DC031AB0108700334B64 = {
 						CreatedOnToolsVersion = 6.2;
 						TestTargetID = 3CA4DBEE1AB0108600334B64;
+					};
+					3CA4DC171AB010B200334B64 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					3CA4DC241AB010B200334B64 = {
+						CreatedOnToolsVersion = 6.2;
 					};
 				};
 			};
@@ -183,6 +318,8 @@
 			targets = (
 				3CA4DBEE1AB0108600334B64 /* TipsCalc */,
 				3CA4DC031AB0108700334B64 /* TipsCalcTests */,
+				3CA4DC171AB010B200334B64 /* TipsCalc WatchKit Extension */,
+				3CA4DC241AB010B200334B64 /* TipsCalc WatchKit App */,
 			);
 		};
 /* End PBXProject section */
@@ -202,6 +339,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CA4DC161AB010B200334B64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CA4DC221AB010B200334B64 /* Images.xcassets in Resources */,
+				3CA4DC261AB010B200334B64 /* TipsCalc WatchKit App.app in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CA4DC231AB010B200334B64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CA4DC2E1AB010B200334B64 /* Interface.storyboard in Resources */,
+				3CA4DC301AB010B200334B64 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,6 +380,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		3CA4DC141AB010B200334B64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CA4DC201AB010B200334B64 /* NotificationController.swift in Sources */,
+				3CA4DC1E1AB010B200334B64 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -232,6 +396,16 @@
 			isa = PBXTargetDependency;
 			target = 3CA4DBEE1AB0108600334B64 /* TipsCalc */;
 			targetProxy = 3CA4DC051AB0108700334B64 /* PBXContainerItemProxy */;
+		};
+		3CA4DC281AB010B200334B64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3CA4DC241AB010B200334B64 /* TipsCalc WatchKit App */;
+			targetProxy = 3CA4DC271AB010B200334B64 /* PBXContainerItemProxy */;
+		};
+		3CA4DC321AB010B200334B64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3CA4DC171AB010B200334B64 /* TipsCalc WatchKit Extension */;
+			targetProxy = 3CA4DC311AB010B200334B64 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -250,6 +424,14 @@
 				3CA4DBFE1AB0108700334B64 /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		3CA4DC2C1AB010B200334B64 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3CA4DC2D1AB010B200334B64 /* Base */,
+			);
+			name = Interface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -338,6 +520,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = TipsCalc/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -348,6 +531,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = TipsCalc/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -388,6 +572,60 @@
 			};
 			name = Release;
 		};
+		3CA4DC351AB010B200334B64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = TipsCalc_WatchKit_Extension;
+				INFOPLIST_FILE = "TipsCalc WatchKit App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		3CA4DC361AB010B200334B64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = TipsCalc_WatchKit_Extension;
+				INFOPLIST_FILE = "TipsCalc WatchKit App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		3CA4DC381AB010B200334B64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TipsCalc WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		3CA4DC391AB010B200334B64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "TipsCalc WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -413,6 +651,22 @@
 			buildConfigurations = (
 				3CA4DC121AB0108700334B64 /* Debug */,
 				3CA4DC131AB0108700334B64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3CA4DC341AB010B200334B64 /* Build configuration list for PBXNativeTarget "TipsCalc WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CA4DC351AB010B200334B64 /* Debug */,
+				3CA4DC361AB010B200334B64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3CA4DC371AB010B200334B64 /* Build configuration list for PBXNativeTarget "TipsCalc WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CA4DC381AB010B200334B64 /* Debug */,
+				3CA4DC391AB010B200334B64 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
